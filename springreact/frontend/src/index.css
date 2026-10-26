@@ -1,0 +1,83 @@
+:root {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: #1a1a1a;
+  background: #fafafa;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+nav a {
+  color: #2457c5;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+input[type='text'],
+form input {
+  flex: 1;
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: 1px solid #c9c9c9;
+  border-radius: 6px;
+}
+
+button {
+  padding: 8px 14px;
+  font-size: 0.95rem;
+  border: 0;
+  border-radius: 6px;
+  background: #2457c5;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.link {
+  background: none;
+  color: #b3261e;
+  padding: 4px 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+label.done {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.error {
+  color: #b3261e;
+}
+
+.message {
+  font-size: 1.2rem;
+}
